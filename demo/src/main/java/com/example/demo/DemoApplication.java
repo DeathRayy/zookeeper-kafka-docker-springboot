@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 @Slf4j
-@SpringBootApplication(scanBasePackages = {"com.example.controllers", "com.example.kafka"})
+@SpringBootApplication(scanBasePackages = {"com.example.controllers", "com.example.kafka", "com.example.services"})
 public class DemoApplication {
 
 	public static void main(String[] args) {
